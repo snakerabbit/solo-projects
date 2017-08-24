@@ -1,0 +1,16 @@
+.sections_nav {
+  display: flex;
+  justify-content:  center;
+  border-bottom: 1px solid #d3d3d3;
+  align-items: center;
+}
+
+.sections_list{
+  display: flex;
+}
+
+.sections_list li {
+  margin: 0 10px;
+  font-family: $sans-serif;
+  cursor: pointer;
+}

@@ -28,6 +28,7 @@ class UsersController < ApplicationController
       render json: user
     else
       render json: user.error.full_messages, status: unprocessable_entity
+    end
   end
 
   protected
